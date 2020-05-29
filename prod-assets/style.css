@@ -15,14 +15,6 @@ body {
   outline: none;
   box-shadow: none; }
 
-@keyframes anim {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0; }
-  100% {
-    transform: translateY(0);
-    opacity: 1; } }
-
 img {
   max-width: 100%;
   border: 0;
@@ -117,15 +109,37 @@ ul {
   border-radius: 5px;
   display: inline-block;
   line-height: 24px;
-  padding: 14px 0;
+  padding: 7px 0;
   font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
-  transition: all .25s ease-in-out;
   color: white;
-  width: 187px;
-  cursor: pointer; }
+  width: 150px;
+  cursor: pointer;
+  transition: all .3s; }
+  @media (min-width: 768px) {
+    .c-btn {
+      border: none;
+      border-radius: 5px;
+      display: inline-block;
+      line-height: 24px;
+      padding: 14px 0;
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      width: 170px;
+      cursor: pointer;
+      transition: all .3s; } }
+  .c-btn--primary {
+    background: #cd3f1e;
+    font-weight: bold;
+    transition: all .6s; }
+    .c-btn--primary:hover {
+      transform: translateY(-2px);
+      color: #000000; }
 
 .c-heading {
   color: #ffffff; }
@@ -147,7 +161,7 @@ ul {
     color: #000000; }
 
 .c-nav {
-  background: url(../../navbar-bg.png) center center/cover; }
+  background: url(../navbar-bg.png) center center/cover; }
   .c-nav__item {
     font-size: 18px;
     transition: all .4s; }
@@ -180,30 +194,66 @@ ul {
   position: relative; }
   .t-banner__heading {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 3%; }
     @media (min-width: 768px) {
       .t-banner__heading {
         left: 5%;
-        top: 35%; } }
+        top: 36%; } }
     @media (min-width: 1200px) {
       .t-banner__heading {
         left: 15%;
         top: 35%; } }
   .t-banner__h1 {
     font-size: 1.5rem;
-    font-weight: 500; }
+    font-weight: 500;
+    animation-name: anim;
+    animation-duration: 3s; }
     @media (min-width: 768px) {
       .t-banner__h1 {
         font-size: 3rem;
         font-weight: 500; } }
   .t-banner__text {
     font-size: 14px;
-    width: 300px; }
+    width: 300px;
+    animation-name: anim;
+    animation-duration: 3s; }
     @media (min-width: 1200px) {
       .t-banner__text {
         width: 400px;
         font-size: 20px; } }
+  .t-banner__btn {
+    animation-name: anim;
+    animation-duration: 3s; }
+
+@keyframes anim {
+  0% {
+    transform: translateY(100px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+.t-mission__heading {
+  letter-spacing: 1px; }
+
+.t-mission__underline {
+  width: 75px;
+  height: 10px;
+  background-color: #ffffff;
+  margin: auto; }
+  @media (min-width: 768px) {
+    .t-mission__underline {
+      width: 150px;
+      height: 10px;
+      background-color: #ffffff;
+      margin: auto; } }
+
+.t-mission__text {
+  letter-spacing: 1px; }
+  @media (min-width: 768px) {
+    .t-mission__text {
+      font-size: 1.5rem; } }
 
 .u-ml {
   margin-left: 10px; }
@@ -235,6 +285,15 @@ ul {
 .u-white {
   color: #ffffff; }
 
+.u-bg-dark {
+  background: #141414; }
+
+.u-primary {
+  color: #cd3f1e; }
+
+.u-gray {
+  color: #e7e7e7; }
+
 .u-fz-3 {
   font-size: 1.5rem; }
   @media (min-width: 768px) {
@@ -250,7 +309,10 @@ ul {
       color: #ffffff; } }
 
 .u-fz-5 {
-  font-size: 3rem; }
+  font-size: 2.25rem; }
+  @media (min-width: 768px) {
+    .u-fz-5 {
+      font-size: 3rem; } }
 
 .u-weight-500 {
   font-weight: 500; }
