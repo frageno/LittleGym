@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/4c901afbcb.js" crossorigin="anonymous"></script><script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4c901afbcb.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="prod-assets/style.css">
   <title>LittleGym</title>
@@ -49,7 +49,7 @@
   <!-- end of navigation -->
   <!-- banner -->
   <div class="t-banner pt-5 mt-2 mt-lg-3">
-    <a href="http://www.freepik.com"><img src="banner-bg.jpg" alt="Designed by Freepik"></a>
+    <a href="http://www.freepik.com"><img src="images/banner-bg.jpg" alt="Designed by Freepik"></a>
       <div class="t-banner__heading">
           <h1 class="t-banner__h1">Welcome to our gym!</h1>
           <p class="t-banner__text py-4 ml-lg-2">You want to see our trainings or diets?
@@ -59,23 +59,25 @@
     </div>
     <!-- end of banner -->
     <!-- mission section -->
-    <section class="u-bg-dark py-5">
+    <section class="u-bg-dark py-5 t-mission">
         <div class="container">
-            <div class="row text-center">
-                <div class="col text-center t-mission">
+            <!-- title -->
+            <div class="row text-center ">
+                <div class="col text-center ">
                     <h1 class="u-fz-5 t-mission__heading text-capitalize mb-5 ">Our <span class="t-mission__sm">misson</span></h1>
                     <div class="t-mission__underline mb-5"></div>
-                    <p class="font-weight-bold t-mission__text">We’ll try to make your life healthier!</p>
+                    <p class=" t-mission__text">We’ll try to make your life healthier!</p>
                 </div>
             </div>
-            <div class="row">
+            <!-- end of title -->
+            <div class="row ">
                 <div class="col-lg-4 text-center py-5">
                     <i class="fas fa-stethoscope fa-6x u-primary pb-4"></i>
                     <h2 class="pb-2">Healthy</h2>
                     <p class="u-gray">Our training plans are healthy for your body</p>
                 </div>
                 <div class="col-lg-4 text-center py-5">
-                    <i class="fas fa-dumbbell"></i>
+                    <i class="fas fa-dumbbell fa-6x u-primary pb-4"></i>
                     <h2 class="pb-2">Quality</h2>
                     <p class="u-gray">The equipment from the best shelf</p>
                 </div>
@@ -85,10 +87,199 @@
                     <p class="u-gray">Many years experience with real customers</p>
                 </div>
             </div>
+            <!-- second part of mission-->
+            <div class="row">
+                <div class="col-lg-6 col-12 t-mission__second-title">
+                    <h1 class="u-fz-6 p-3 ml-lg-5 t-mission__second-part">We exacly <span style="color:#e5f901">know</span> what<br>
+                        we <span style="color:#e5f901">have</span> to do!</h1>
+
+                        <p class="pl-3  ml-lg-5">Most our clients are satisfied,
+                            with cooperate with our personal treners and taking part in our classes!</p>
+                    </div>
+                    <div class="col-lg-6 col-12 t-mission__img pt-5">
+                    <img src="images/girl.png" class="img-fluid">
+
+                </div>
+            </div>
+            <!-- end of second part of mission-->
         </div>
 
     </section>
     <!-- end of mission section -->
+    <!-- plans -->
+    <section class="py-5 u-bg-plans">
+        <div class="container">
+         <!-- title -->
+         <div class="row text-center ">
+            <div class="col text-center ">
+                <h1 class="u-fz-5 t-plans__heading text-capitalize  mb-5 ">Plans</h1>
+                <div class="t-plans__underline  mb-5"></div>
+                <p class=" t-plans__text">You can choose your own training plan!</p>
+            </div>
+        </div>
+        <!-- end of title -->
+        <div class="row py-lg-5 pt-5">
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0">
+
+                        <img src="images/1.jpg" class="img-fluid">
+                        <div class="card-img-overlay">
+                            <h5 class="text-uppercase text-white text-center p-2 t-plans__subheading">CALISTHENICS</h5>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0">
+
+                    <img src="images/2.jpg" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h5 class="text-uppercase text-white text-center p-2 t-plans__subheading">WEIGHTLIFTING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0">
+
+                    <img src="images/3.jpg" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h5 class="text-uppercase text-white text-center p-2 t-plans__subheading">AEROBIC</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-lg-1">
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0">
+
+                        <img src="images/4.jpg" class="img-fluid" height="233">
+                        <div class="card-img-overlay">
+                            <h5 class="text-uppercase text-white text-center p-2 t-plans__subheading">CROSSFIT</h5>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0">
+
+                    <img src="images/5.jpg" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h5 class="text-uppercase text-white text-center p-2 t-plans__subheading">FULL BODY WORKOUT</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  mb-4">
+                <div class="card border-0">
+
+                    <img src="images/6.jpg" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h5 class="text-uppercase text-white text-center p-2 t-plans__subheading">BODY-BUILDING</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end of plans -->
+    <!-- customer -->
+    <section class="u-bg-dark py-5 t-customers">
+        <div class="container">
+            <!-- title -->
+            <div class="row text-center ">
+               <div class="col text-center ">
+                   <h1 class="u-fz-5 t-mission__heading text-capitalize  mb-5 ">Customers</h1>
+                   <div class="t-mission__underline  mb-5"></div>
+                   <p class=" t-mission__text">All our customers are happy after working with us!</p>
+               </div>
+           </div>
+           <!-- end of title -->
+           <div class="row py-5">
+               <div class="col-md-6 mx-auto">
+                   <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+                       <ol class="carousel-indicators">
+                           <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+                           <li data-target="#customer-carousel" data-slide-to="1"></li>
+                           <li data-target="#customer-carousel" data-slide-to="2"></li>
+                       </ol>
+                       <div class="carousel-inner">
+                           <div class="carousel-item text-center active">
+                                <img src="images/customer-image.png" class="img-fluid"width="150">
+                                <blockquote class="blockquote text-white">
+                                    <p class="py-5">Now my body looks extremely better since when I start work with this amazing people, its really profitable to join here </p>
+                                </blockquote>
+                                <h5 class="display-4 mb-2 font-weight-bold">Ann</h5>
+                                <ul class="list-inline mb-5">
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-star text-warning"></i>
+                                    </li>
+                                </ul>
+                           </div>
+                           <div class="carousel-item text-center">
+                            <img src="images/customer-image.png" class="img-fluid"width="150">
+                            <blockquote class="blockquote text-white">
+                                <p class="py-5">Now my body looks extremely better since when I start work with this amazing people, its really profitable to join here </p>
+                            </blockquote>
+                            <h5 class="display-4 mb-2 font-weight-bold">Monica</h5>
+                            <ul class="list-inline mb-5">
+                                <li class="list-inline-item">
+                                    <i class="fas fa-star text-warning"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fas fa-star text-warning"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fas fa-star text-warning"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fas fa-star text-warning"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fas fa-star text-warning"></i>
+                                </li>
+                            </ul>
+                       </div>
+                       <div class="carousel-item text-center">
+                        <img src="images/customer-image.png" class="img-fluid"width="150">
+                        <blockquote class="blockquote text-white">
+                            <p class="py-5">Now my body looks extremely better since when I start work with this amazing people, its really profitable to join here </p>
+                        </blockquote>
+                        <h5 class="display-4 mb-2 font-weight-bold">Jon</h5>
+                        <ul class="list-inline mb-5">
+                            <li class="list-inline-item">
+                                <i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star text-warning"></i>
+                            </li>
+                        </ul>
+                   </div>
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+           </div>
+    </section>
+    <!-- end of customer -->
 
 
     <!-- ALL PHOTOS FROM THIS PROJECT COME FROM FREEPIK.COM-->
