@@ -140,6 +140,15 @@ ul {
     .c-btn--primary:hover {
       transform: translateY(-2px);
       color: #000000; }
+  .c-btn--secondary {
+    background: #e5f901;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: bold;
+    transition: all .6s; }
+    .c-btn--secondary:hover {
+      background: #cd3f1e;
+      color: #ffffff; }
 
 .c-heading {
   color: #ffffff; }
@@ -294,10 +303,11 @@ ul {
     opacity: 1; } }
 
 .card {
-  padding: 0;
-  box-shadow: 2px 10px 20px #5b5b5b;
+  box-shadow: 2px 10px 20px #5b5b5b; }
+
+.t-plans__hover {
   transition: all .8s; }
-  .card:hover {
+  .t-plans__hover:hover {
     transform: scale(1.05); }
 
 .t-plans__heading {
@@ -336,6 +346,14 @@ ul {
 @media (min-width: 768px) {
   .t-customers {
     clip-path: circle(55% at 50% 10%); } }
+
+.t-pricing__card-1 {
+  background: url(../../images/pricing-bg.png) center/cover;
+  min-height: 60vh; }
+
+.t-pricing__card-2 {
+  background: url(../../images/pricing-bg.png) center/cover;
+  min-height: 65vh; }
 
 .u-ml {
   margin-left: 10px; }
