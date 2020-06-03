@@ -149,6 +149,21 @@ ul {
     .c-btn--secondary:hover {
       background: #cd3f1e;
       color: #ffffff; }
+  .c-btn--contact {
+    background: #cd3f1e;
+    border-radius: 50px;
+    transition: all .6s;
+    color: #ffffff;
+    width: 250px; }
+    @media (min-width: 768px) {
+      .c-btn--contact {
+        width: 380px; } }
+    @media (min-width: 1200px) {
+      .c-btn--contact {
+        min-width: 720px; } }
+  .c-btn--footer {
+    background: #cd3f1e;
+    width: 100px; }
 
 .c-heading {
   color: #ffffff; }
@@ -348,12 +363,60 @@ ul {
     clip-path: circle(55% at 50% 10%); } }
 
 .t-pricing__card-1 {
-  background: url(../../images/pricing-bg.png) center/cover;
+  background: url(../images/pricing-bg.png) center/cover;
   min-height: 60vh; }
 
 .t-pricing__card-2 {
-  background: url(../../images/pricing-bg.png) center/cover;
+  background: url(../images/pricing-bg.png) center/cover;
   min-height: 65vh; }
+
+.t-contact {
+  background: #181212;
+  height: 80vh; }
+  @media (min-width: 1200px) {
+    .t-contact {
+      background: linear-gradient(-105deg, #181212 0%, #181212 55%, transparent 50%), url(../images/contact-bg.jpg) top center/cover; } }
+  .t-contact__form {
+    position: absolute;
+    top: 90%;
+    left: 25%; }
+    @media (min-width: 768px) {
+      .t-contact__form {
+        top: 100%;
+        left: 32%; } }
+    @media (min-width: 1200px) {
+      .t-contact__form {
+        top: 90%;
+        left: 50%; } }
+  .t-contact__input {
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #ffffff;
+    border-radius: 0;
+    transition: all .8s;
+    width: 100% !important; }
+    @media (min-width: 768px) {
+      .t-contact__input {
+        width: 75% !important; } }
+    .t-contact__input:focus {
+      background: transparent;
+      border-color: transparent;
+      outline: transparent;
+      border-bottom: 2px solid #cd3f1e;
+      color: #ffffff; }
+  .t-contact__forms {
+    position: relative;
+    margin-top: 100px; }
+  .t-contact__heading {
+    position: absolute;
+    top: 25%;
+    right: 20%; }
+    @media (min-width: 768px) {
+      .t-contact__heading {
+        right: 35%; } }
+    @media (min-width: 1200px) {
+      .t-contact__heading {
+        right: 25%; } }
 
 .u-ml {
   margin-left: 10px; }
@@ -396,6 +459,21 @@ ul {
 
 .u-gray {
   color: #e7e7e7; }
+
+.u-footer {
+  color: #989898; }
+
+.u-email {
+  color: #0a509e; }
+
+.u-facebook {
+  color: #2a7aff; }
+
+.u-insta {
+  color: #ef662a; }
+
+.u-fz-2 {
+  font-size: 0.75rem; }
 
 .u-fz-3 {
   font-size: 1.5rem; }
