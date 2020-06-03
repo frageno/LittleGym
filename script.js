@@ -5,7 +5,8 @@ $(document).ready(()=>{
 
     $(window).scroll(function(){
         let position = $(this).scrollTop();
-        if(position>=180){
+        console.log(position);
+        if(position>=180 && position<=2050){
             $('.t-mission__img').addClass('t-mission__effect-right');
             $('.t-mission__second-title').addClass('t-mission__effect-left');
         }
