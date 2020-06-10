@@ -10,3 +10,7 @@ This is full-view of this site >>>
 I presents some mockups on desktop and also on mobile-phone check it out >>>>>>>>>>>
 
 ![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/images/Mockups/mockup.jpg)
+
+
+
+All rights reserved
