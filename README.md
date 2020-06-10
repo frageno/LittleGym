@@ -3,4 +3,10 @@ My own project which presents gym/fitness company. This real project consist of 
 
 This is full-view of this site >>>
 
-![alt text](https://raw.githubusercontent.com/frageno/LittleGym/master/littlegym-project.png)
+![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/littlegym-project.png)
+
+
+
+I presents some mockups on desktop and also on mobile-phone check it out >>>>>>>>>>>
+
+![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/images/Mockups/mockup.jpg)
