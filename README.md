@@ -13,4 +13,5 @@ I presents some mockups on desktop and also on mobile-phone check it out >>>>>>>
 
 
 
-All rights reserved
+All rights reserved 
+Made by FRN
