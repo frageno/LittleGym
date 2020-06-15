@@ -47,4 +47,7 @@ You can copy this repository's from here, at your computer follow this three ste
 ![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/littlegym-project.png)
 
 2.Mockup
- ![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/images/Mockups/mockup.jpg)
+ ![fullview-mockup](https://raw.githubusercontent.com/frageno/LittleGym/master/images/Mockups/mockup.jpg)
+ 
+ 3.GIF
+ ![gif](https://github.com/frageno/LittleGym/blob/master/effect.gif)
