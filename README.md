@@ -19,10 +19,9 @@ This project first was created in <b>Photoshop</b> by myself.
 This project is created with : 
 * HTML5
 * CSS3
-* Javascript
-* jQuery
-* SASS (gulp-sass 4.1.0)
 * Bootstrap 4
+* SASS (gulp-sass 4.1.0)
+* jQuery
 
 ## Setup Locally
 <b>Requirements:</b>
