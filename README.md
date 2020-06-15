@@ -1,17 +1,50 @@
 # LittleGym
-My own project which presents gym/fitness company. This real project consist of 8 parts (Navbar,Banner,Mission,Plans,Customers,Pricing.Contact,Footer). I created this project in Photoshop independently . All images which I used come from <b> http://www.freepik.com </b>
+## Table of content
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup Locally](#setup-locally)
+* [Sources](#sources)
+* [Illustrations](#illustrations)
 
-This is full-view of this site >>>
 
+## General info
+
+My own project which presents gym fitness company.
+This real project consist of <b>8</b> parts <b>Navbar</b> <b>Banner</b><b>Mission</b>
+<b>Plans</b><b>Customers</b><b>Pricing</b><b>Contact</b><b>Footer</b>
+I created this project in <b>Photoshop</b> independentl.
+
+## Technologies
+
+This project is created with : 
+* HTML5
+* CSS3
+* Javascript
+* jQuery
+* SASS (gulp-sass 4.1.0)
+* Bootstrap 4
+
+## Setup Locally
+<b>Requirements:</b>
+
+* Visual Studio Code
+
+You can copy this repository's from here, at your computer follow this three steps:
+
+* git clone https://github.com/frageno/LittleGym.git
+
+* cd LittleGym
+
+* npm start or run with your localserver 
+
+## Sources
+
+<b>All images which were used in this project come from www.freepik.com. Also were used fonts from fontawsome.com </b>
+
+## Illustrations
+
+1. Full-view
 ![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/littlegym-project.png)
 
-
-
-I presents some mockups on desktop and also on mobile-phone check it out >>>>>>>>>>>
-
-![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/images/Mockups/mockup.jpg)
-
-
-
-All rights reserved 
-Made by FRN
+2.Mockup
+ ![fullview](https://raw.githubusercontent.com/frageno/LittleGym/master/images/Mockups/mockup.jpg)
