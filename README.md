@@ -10,7 +10,7 @@
 ## General info
 
 My own project which presents gym fitness company.
-This real project consist of <b>8</b> parts <b>Navbar</b> <b>Banner</b> <b>Mission</b>
+This real project consist of <b>8</b> parts<br /> <b>Navbar</b> <b>Banner</b> <b>Mission</b>
 <b>Plans</b> <b>Customers</b> <b>Pricing</b> <b>Contact</b> <b>Footer</b><br />
 This project first was created in <b>Photoshop</b> by myself.
 
