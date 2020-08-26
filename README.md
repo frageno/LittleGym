@@ -5,7 +5,7 @@
 My own project which presents gym fitness company.
 This real project consist of <b>8</b> parts<br /> <b>Navbar</b> <b>Banner</b> <b>Mission</b>
 <b>Plans</b> <b>Customers</b> <b>Pricing</b> <b>Contact</b> <b>Footer</b><br />
-This project first was created in <b>Photoshop</b> by myself.
+This project first was created in <b>Photoshop</b> by myself.That was one of first project using bootstrap, and design by me so some elements cannot be perfect.
 
 
 ## Table of content
